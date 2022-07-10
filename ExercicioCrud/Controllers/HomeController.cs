@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using ExercicioCrud.Models.ViewModels;
 using System.Threading.Tasks;
 
 namespace ExercicioCrud.Controllers
@@ -33,5 +34,7 @@ namespace ExercicioCrud.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        
     }
 }
